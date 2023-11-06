@@ -34,6 +34,31 @@ app.UseAuthorization();
 
 app.MapControllers();
 
+// Create a new scope for application services.
+using var scope = app.Services.CreateScope();
+
+// Get the service provider from the created scope.
+var services = scope.ServiceProvider;
+
+// Get the application's database context service.
+var context = services.GetRequiredService<StoreContext>();
+
+// Get a logger service for error handling.
+var logger = services.GetRequiredService<ILogger<Program>>();
+
+try
+{
+    // Attempt to asynchronously apply pending database migrations.
+    await context.Database.MigrateAsync();
+    // Attempt to asynchronously fill the database with seed data.
+    await StoreContextSeed.SeedAsync(context);
+}
+catch (Exception ex)
+{
+    // Log any exceptions that occur during migration.
+    logger.LogError(ex, "An error occurred during migration.");
+}
+
 app.Run();
 
 
