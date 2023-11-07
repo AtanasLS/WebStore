@@ -1,6 +1,8 @@
 
+using api.Dtos;
 using Core.Entities;
 using Core.Interfaces;
+using Core.Specifications;
 using Infrastructure.Data;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
@@ -27,23 +29,47 @@ namespace api.Controllers
 
 
         [HttpGet]
-        public async Task<ActionResult<List<Product>>> GetProducts()
+        public async Task<ActionResult<List<ProductToReturnDto>>> GetProducts()
         {
-            var products = await _productRepo.ListAllAsync();
+            var spec = new ProductWithTypesAndBrandsSpecification(); 
+            var products = await _productRepo.ListAsync(spec);
            
-            return Ok(products);
+            return products.Select(product => new ProductToReturnDto
+            {
+                Id = product.Id,
+                Name = product.Name,
+                Description = product.Description,
+                Price = product.Price,
+                PictureUrl = product.PictureUrl,
+                ProductType = product.ProductType.Name,
+                ProductBrand = product.ProductBrand.Name
+            }).ToList();
         }
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<Product>> GetProduct(int id)
+        public async Task<ActionResult<ProductToReturnDto>> GetProduct(int id)
         {
-            return await _productRepo.GetByIdAsync(id);
+            var spec =  new ProductWithTypesAndBrandsSpecification(id);
+
+            var product = await _productRepo.GetEntityWithSpec(spec);
+
+            return new ProductToReturnDto 
+            {
+                Id = product.Id,
+                Name = product.Name,
+                Description = product.Description,
+                Price = product.Price,
+                PictureUrl = product.PictureUrl,
+                ProductType = product.ProductType.Name,
+                ProductBrand = product.ProductBrand.Name
+            };
         }
 
         [HttpGet("brands")]
         public async Task<ActionResult<List<ProductBrand>>> GetProductBrands()
         {
             var productBrands = await _productBrandRepo.ListAllAsync();
+
             return Ok(productBrands);
         }
 
@@ -51,6 +77,7 @@ namespace api.Controllers
         public async Task<ActionResult<List<ProductType>>> GetProductTypes()
         {
             var productType = await _productTypeRepo.ListAllAsync();
+            
             return Ok(productType);
         }
 
