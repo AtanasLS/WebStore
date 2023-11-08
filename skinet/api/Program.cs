@@ -36,6 +36,8 @@ app.UseAuthorization();
 
 app.MapControllers();
 
+app.UseStaticFiles();
+
 // Create a new scope for application services.
 using var scope = app.Services.CreateScope();
 
