@@ -43,6 +43,7 @@ namespace api.Extensions
                      return new BadRequestObjectResult(errorResponse);
                 };
                 });
+                
             //Adding Cors    
             services.AddCors(opt =>
             {
