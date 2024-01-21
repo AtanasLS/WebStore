@@ -1,3 +1,19 @@
-<div *ngIf="porduct">
-    <h1>{{porduct.name}}</h1>
+<div class="row " *ngIf="porduct">
+    <div class="col-6">
+        <img src="{{porduct.pictureUrl}}" alt="{{porduct.name}}" class="w-100">
+    </div>
+    <div class="col-6 mt-5">
+        <h2>{{porduct.name}}</h2>
+        <p>{{porduct.price | currency}}</p>
+        <div class="d-flex justify-content-start align-items-center">
+             <i class="fa fa-minus-circle text-warning me-2" style="cursor:pointer; font-size: 2em;"></i>
+             <span class="font-weight-bold" style="font-size: 1.5em;">2</span>
+             <i class="fa fa-plus-circle text-warning ms-2" style="cursor:pointer; font-size: 2em;"></i>
+            <button class="btn btn-outline-secondary ms-4">Add to card</button>
+        </div>
+        <div class="row mt-4">
+            <h4>Description</h4>
+            <p>{{porduct.description}}</p>
+        </div>
+    </div>
 </div>
