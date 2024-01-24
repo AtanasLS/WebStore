@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "NFcjTmAGy0AvOq9J8mjXDndUqwvzhjGgjl4BXDi6jlGyJ6A0QPcLwVCs/XeU5QfhXT98I5MumdXTSNpVQXMQ8w==",
+  "dgSpecHash": "+5BDw5pBcyiOJXa9ihmXBvaZFgW8pMFKRSjkvO6OICp9WmubDRA7GWhYajiHioD/1HD6A4oyY7iSRawXBwDFsA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Atanas Stoyanov\\OneDrive - Erhvervsakademi Sydvest\\Dokumenter\\GitHub\\WebStore\\skinet\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
@@ -26,10 +26,13 @@
     "C:\\Users\\Atanas Stoyanov\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\Atanas Stoyanov\\.nuget\\packages\\microsoft.extensions.options\\7.0.1\\microsoft.extensions.options.7.0.1.nupkg.sha512",
     "C:\\Users\\Atanas Stoyanov\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "C:\\Users\\Atanas Stoyanov\\.nuget\\packages\\pipelines.sockets.unofficial\\2.2.8\\pipelines.sockets.unofficial.2.2.8.nupkg.sha512",
     "C:\\Users\\Atanas Stoyanov\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.1.4\\sqlitepclraw.bundle_e_sqlite3.2.1.4.nupkg.sha512",
     "C:\\Users\\Atanas Stoyanov\\.nuget\\packages\\sqlitepclraw.core\\2.1.4\\sqlitepclraw.core.2.1.4.nupkg.sha512",
     "C:\\Users\\Atanas Stoyanov\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.4\\sqlitepclraw.lib.e_sqlite3.2.1.4.nupkg.sha512",
     "C:\\Users\\Atanas Stoyanov\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.1.4\\sqlitepclraw.provider.e_sqlite3.2.1.4.nupkg.sha512",
+    "C:\\Users\\Atanas Stoyanov\\.nuget\\packages\\stackexchange.redis\\2.7.17\\stackexchange.redis.2.7.17.nupkg.sha512",
+    "C:\\Users\\Atanas Stoyanov\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512",
     "C:\\Users\\Atanas Stoyanov\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\Atanas Stoyanov\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
     "C:\\Users\\Atanas Stoyanov\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512"
