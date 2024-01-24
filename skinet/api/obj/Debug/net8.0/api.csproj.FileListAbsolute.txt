@@ -109,3 +109,5 @@ C:\Users\Atanas Stoyanov\OneDrive - Erhvervsakademi Sydvest\Dokumenter\GitHub\We
 C:\Users\Atanas Stoyanov\OneDrive - Erhvervsakademi Sydvest\Dokumenter\GitHub\WebStore\skinet\api\bin\Debug\net8.0\AutoMapper.dll
 C:\Users\Atanas Stoyanov\OneDrive - Erhvervsakademi Sydvest\Dokumenter\GitHub\WebStore\skinet\api\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\Atanas Stoyanov\OneDrive - Erhvervsakademi Sydvest\Dokumenter\GitHub\WebStore\skinet\api\bin\Debug\net8.0\api.staticwebassets.runtime.json
+C:\Users\Atanas Stoyanov\OneDrive - Erhvervsakademi Sydvest\Dokumenter\GitHub\WebStore\skinet\api\bin\Debug\net8.0\Pipelines.Sockets.Unofficial.dll
+C:\Users\Atanas Stoyanov\OneDrive - Erhvervsakademi Sydvest\Dokumenter\GitHub\WebStore\skinet\api\bin\Debug\net8.0\StackExchange.Redis.dll
