@@ -14,3 +14,5 @@ C:\Users\Atanas Stoyanov\OneDrive - Erhvervsakademi Sydvest\Dokumenter\GitHub\We
 C:\Users\Atanas Stoyanov\OneDrive - Erhvervsakademi Sydvest\Dokumenter\GitHub\WebStore\skinet\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
 C:\Users\Atanas Stoyanov\OneDrive - Erhvervsakademi Sydvest\Dokumenter\GitHub\WebStore\skinet\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
 C:\Users\Atanas Stoyanov\OneDrive - Erhvervsakademi Sydvest\Dokumenter\GitHub\WebStore\skinet\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll
+C:\Users\Atanas Stoyanov\OneDrive - Erhvervsakademi Sydvest\Dokumenter\GitHub\WebStore\skinet\Infrastructure\bin\Debug\net8.0\Infrastructure.runtimeconfig.json
+C:\Users\Atanas Stoyanov\OneDrive - Erhvervsakademi Sydvest\Dokumenter\GitHub\WebStore\skinet\Infrastructure\obj\Debug\net8.0\Infrastructure.genruntimeconfig.cache
