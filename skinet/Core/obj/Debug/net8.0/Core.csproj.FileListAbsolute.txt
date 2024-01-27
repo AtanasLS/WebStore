@@ -11,3 +11,5 @@ C:\Users\Atanas Stoyanov\OneDrive - Erhvervsakademi Sydvest\Dokumenter\GitHub\We
 C:\Users\Atanas Stoyanov\OneDrive - Erhvervsakademi Sydvest\Dokumenter\GitHub\WebStore\skinet\Core\obj\Debug\net8.0\Core.pdb
 C:\Users\Atanas Stoyanov\OneDrive - Erhvervsakademi Sydvest\Dokumenter\GitHub\WebStore\skinet\Core\obj\Debug\net8.0\ref\Core.dll
 C:\Users\Atanas Stoyanov\OneDrive - Erhvervsakademi Sydvest\Dokumenter\GitHub\WebStore\skinet\Core\obj\Debug\net8.0\Core.csproj.AssemblyReference.cache
+C:\Users\Atanas Stoyanov\OneDrive - Erhvervsakademi Sydvest\Dokumenter\GitHub\WebStore\skinet\Core\bin\Debug\net8.0\Core.runtimeconfig.json
+C:\Users\Atanas Stoyanov\OneDrive - Erhvervsakademi Sydvest\Dokumenter\GitHub\WebStore\skinet\Core\obj\Debug\net8.0\Core.genruntimeconfig.cache

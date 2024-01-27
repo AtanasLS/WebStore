@@ -1,11 +1,12 @@
+using Core.Entities.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace Infrastructure.Identity
+namespace Infrastructure.Data.Identity
 {
-    public class AppIdentityDbContex : IdentityDbContext
+    public class AppIdentityDbContext : IdentityDbContext<AppUser>
     {
-        public AppIdentityDbContex(DbContextOptions<AppIdentityDbContex> options) : base(options)
+        public AppIdentityDbContext(DbContextOptions<AppIdentityDbContext> options) : base(options)
         {
         }
 
