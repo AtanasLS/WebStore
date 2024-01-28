@@ -1,6 +1,10 @@
 using api.Extensions;
 using api.Middleware;
+using Core.Entities.Identity;
 using Infrastructure.Data;
+using Infrastructure.Data.Identity;
+using Infrastructure.Identity;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -28,7 +32,6 @@ if (app.Environment.IsDevelopment())
 app.UseCors("CorsPolicy");
 
 app.UseAuthentication();
-
 app.UseAuthorization();
 
 app.MapControllers();
@@ -43,6 +46,8 @@ var services = scope.ServiceProvider;
 
 // Get the application's database context service.
 var context = services.GetRequiredService<StoreContext>();
+var identityContext = services.GetRequiredService<AppIdentityDbContext>();
+var userManager = services.GetRequiredService<UserManager<AppUser>>();
 
 // Get a logger service for error handling.
 var logger = services.GetRequiredService<ILogger<Program>>();
@@ -51,8 +56,10 @@ try
 {
     // Attempt to asynchronously apply pending database migrations.
     await context.Database.MigrateAsync();
+    await identityContext.Database.MigrateAsync();
     // Attempt to asynchronously fill the database with seed data.
     await StoreContextSeed.SeedAsync(context);
+    await AppIdentityDbContextSeed.SeedUserAsync(userManager);
 }
 catch (Exception ex)
 {
