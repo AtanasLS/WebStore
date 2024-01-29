@@ -71,7 +71,7 @@ namespace api.Controllers
 
         if(result.Succeeded) return Ok(_mapper.Map<Address, AddressDto>(user.Address));
 
-        return BadRequest("Problem updating the user!");
+        return BadRequest("There is a problem with user's address!");
     }
      
     [HttpPost("login")]
