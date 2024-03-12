@@ -14,7 +14,7 @@ export class AppComponent implements OnInit {
   ngOnInit(): void {
     const basketId = localStorage.getItem('basket_id');
 
-    if(basketId) this.basketService.getBasket(basketId);
+    if(basketId) this.basketService.getBasket(basketId);  
   }
   
   
