@@ -9,6 +9,7 @@ import { Router } from '@angular/router';
   styleUrls: ['./register.component.scss']
 })
 export class RegisterComponent {
+  errors: string[] | null = null;
 
   constructor(private fb: FormBuilder, private accountService: AccountService, private router: Router){}
   
@@ -22,9 +23,12 @@ export class RegisterComponent {
 
   onSumbit() {
     this.accountService.register(this.registerForm.value).subscribe({
-      next: () => this.router.navigateByUrl('/shop')
+      next: () => this.router.navigateByUrl('/shop'),
+      error: error => this.errors = error.errors
     })
   }
+
+
 }
 
 
