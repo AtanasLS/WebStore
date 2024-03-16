@@ -13,6 +13,7 @@ namespace Infrastructure.Config
                 a.WithOwner();
 
             });
+            builder.Navigation(a => a.ShipToAddress).IsRequired();
             builder.Property(s => s.Status).HasConversion(
                 o => o.ToString(),
                 o => (OrderStatus) Enum.Parse(typeof(OrderStatus), o)
