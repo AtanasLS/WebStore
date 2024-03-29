@@ -1,6 +1,7 @@
 using Core.Entities;
 using Core.Entities.OrederAggregate;
 using Core.Interfaces;
+using Core.Specifications;
 
 namespace Infrastructure.Services
 {
@@ -36,7 +37,7 @@ namespace Infrastructure.Services
 
             //create Order 
             var order = new Order(items, bayerEmail, shippingAddress, deliveryMethod, subtotal);
-            
+
             _unitOfWork.Repository<Order>().Add(order);
 
             //save to db
@@ -51,19 +52,23 @@ namespace Infrastructure.Services
             return order;
         }
 
-        public Task<IReadOnlyList<DeliveryMethod>> GetDeliveryMethodsAsync()
+        public async Task<IReadOnlyList<DeliveryMethod>> GetDeliveryMethodsAsync()
         {
-            throw new NotImplementedException();
+            return await _unitOfWork.Repository<DeliveryMethod>().ListAllAsync();
         }
 
-        public Task<Order> GetOrderByIdAsync(int id, string bayerEmail)
+        public async Task<Order> GetOrderByIdAsync(int id, string bayerEmail)
         {
-            throw new NotImplementedException();
+            var spec = new OrdersWithItemsAndOrderingSpecifactions(id, bayerEmail);
+
+            return await _unitOfWork.Repository<Order>().GetEntityWithSpec(spec);
         }
 
-        public Task<IReadOnlyList<Order>> GetOrdersForUserAsync(string bayerEmail)
+        public async Task<IReadOnlyList<Order>> GetOrdersForUserAsync(string bayerEmail)
         {
-            throw new NotImplementedException();
+            var spec = new OrdersWithItemsAndOrderingSpecifactions(bayerEmail);
+
+            return await _unitOfWork.Repository<Order>().ListAsync(spec);
         }
     }
 }
