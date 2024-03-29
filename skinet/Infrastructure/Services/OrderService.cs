@@ -38,7 +38,7 @@ namespace Infrastructure.Services
             var deliveryMethod = await _dmRepo.GetByIdAsync(deliveryMethodId);
 
             //calc subtotal
-            var subtotal = items.Sum(item => item.Price * item.Price);
+            var subtotal = items.Sum(item => item.Price * item.Quanitity);
 
             //create Order 
             var order = new Order(items, bayerEmail, shippingAddress, deliveryMethod, subtotal);
