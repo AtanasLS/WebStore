@@ -10,6 +10,7 @@ import { ErrorInterceptor } from './core/interceptors/error.interceptor';
 import { LoadingInterceptor } from './core/interceptors/loading.interceptor';
 import { HomeModule } from './home/home.module';
 import { CheckoutComponent } from './checkout/checkout.component';
+import { JwtInterceptor } from './core/interceptors/jwt.interceptor';
 
 
 @NgModule({
@@ -28,6 +29,8 @@ import { CheckoutComponent } from './checkout/checkout.component';
   providers: [
     {provide: HTTP_INTERCEPTORS, useClass: ErrorInterceptor, multi: true},
     {provide: HTTP_INTERCEPTORS, useClass: LoadingInterceptor, multi: true},
+    {provide: HTTP_INTERCEPTORS, useClass: JwtInterceptor, multi: true}
+
 
   ],
   bootstrap: [AppComponent]
