@@ -7,6 +7,7 @@ export interface OrderToCreate {
 }
 
 export interface Order {
+    id: number;
     bayerEmail: string
     orderDate: string
     shipToAddress: Address
