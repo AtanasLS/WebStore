@@ -11,11 +11,13 @@ import { LoadingInterceptor } from './core/interceptors/loading.interceptor';
 import { HomeModule } from './home/home.module';
 import { CheckoutComponent } from './checkout/checkout.component';
 import { JwtInterceptor } from './core/interceptors/jwt.interceptor';
+import { OrderDetailedComponent } from './order-detailed/order-detailed.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    OrderDetailedComponent
   
   ],
   imports: [
