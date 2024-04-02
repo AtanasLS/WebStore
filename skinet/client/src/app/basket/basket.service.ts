@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { BehaviorSubject, retry } from 'rxjs';
+import { BehaviorSubject, map, retry } from 'rxjs';
 import { environment } from 'src/environments/environmet';
 import { Basket, BasketItem, BasketTotals } from '../shared/models/basket';
 import { HttpClient } from '@angular/common/http';
@@ -18,6 +18,16 @@ export class BasketService {
   shipping = 0;
 
   constructor(private http: HttpClient) { }
+
+  createPaymentIntent(){
+    return this.http.post<Basket>(this.baseUrl + 'payments/' + this.getCurrentBasketValue()?.id, {})
+      .pipe(
+        map(basket => {
+          this.basketSource.next(basket);
+          console.log(basket);
+        })
+      )
+  } 
 
   setShippingPrice(deliveryMethod: DeliveryMethod){
     const basket = this.getCurrentBasketValue();
