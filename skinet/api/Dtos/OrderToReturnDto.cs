@@ -8,7 +8,7 @@ namespace api.Dtos
     public class OrderToReturnDto
     {
          
-
+        public int Id { get; set; }
         public string BayerEmail { get; set; }
         public DateTime OrderDate { get; set; } 
         public Address ShipToAddress { get; set; }
