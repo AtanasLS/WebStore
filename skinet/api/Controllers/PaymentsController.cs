@@ -1,18 +1,24 @@
 using System.Drawing.Printing;
 using api.Errors;
 using Core.Entities;
+using Core.Entities.OrederAggregate;
 using Core.Interfaces;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Stripe;
 
 namespace api.Controllers
 {
     public class PaymentsController : BaseApiController
     {
+        private const string WhSecret = "";
         private readonly IPaymentService _paymentService;
-        public PaymentsController(IPaymentService paymentService)
+        private readonly ILogger<PaymentsController> logger;
+
+        public PaymentsController(IPaymentService paymentService, ILogger<PaymentsController> logger)
         {
             _paymentService = paymentService;
+            this.logger = logger;
         }
 
         [Authorize]
@@ -26,6 +32,35 @@ namespace api.Controllers
             return basket;
         }
 
+        [HttpPost]
+        public async Task<ActionResult> StripeWebhook()
+        {
+            var json = await new StreamReader(Request.Body).ReadToEndAsync();
+
+            var stripeEvent = EventUtility.ConstructEvent(json, Request.Headers["Stripe-Signature"], WhSecret);
+            
+            PaymentIntent intent; 
+            Order order; 
+
+            switch(stripeEvent.Type)
+            {
+                case "payment_intent.succeeded":
+                    intent = (PaymentIntent) stripeEvent.Data.Object;
+                    logger.LogInformation("Payment succeeded: " + intent.Id);
+                    order = await _paymentService.UpdateOrderPaymentSucceeded(intent.Id);
+                    logger.LogInformation("Order updated to payment recieved: " + order.Id);
+
+                break;
+                 case "payment_intent.failed":
+                    intent = (PaymentIntent) stripeEvent.Data.Object;
+                    logger.LogInformation("Payment failed: " + intent.Id);
+                    order = await _paymentService.UpdateOrderPaymentFailed(intent.Id);
+                    logger.LogInformation("Order updated to payment recieved: " + order.Id);
+                break;
+            }
+
+            return new EmptyResult();
+        }
         
 
     }

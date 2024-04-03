@@ -8,7 +8,7 @@ import { Address } from 'src/app/shared/models/user';
 import { CheckoutRoutingModule } from '../checkout-routing.module';
 import { NavigationExtras, Router } from '@angular/router';
 import { Stripe, StripeCardCvcElement, StripeCardExpiryElement, StripeCardNumberElement, loadStripe } from '@stripe/stripe-js';
-import { firstValueFrom } from 'rxjs';
+import { firstValueFrom, throttle } from 'rxjs';
 import { OrderToCreate } from 'src/app/shared/models/order';
 
 @Component({
@@ -79,11 +79,12 @@ export class CheckoutPaymentComponent implements OnInit {
   async submitOrder(){
     this.loading = true;
     const basket = this.basketService.getCurrentBasketValue();
+    if(!basket) throw new Error ("Cannot return basket!");
     try {
       const createdOrder = await this.createOrder(basket);
       const paymentResult = await this.confirmPaymentWithStripe(basket);
       if(paymentResult.paymentIntent) {
-        this.basketService.deleteLocalBasket();
+        this.basketService.deleteBasket(basket);
       const navigationExtras: NavigationExtras = {state: createdOrder};
       this.router.navigate(['checkout/success'], navigationExtras)
       } else {
