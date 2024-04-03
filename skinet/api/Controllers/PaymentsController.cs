@@ -11,7 +11,7 @@ namespace api.Controllers
 {
     public class PaymentsController : BaseApiController
     {
-        private const string WhSecret = "";
+        private const string WhSecret = "whsec_d5144e96d9926ca879aae8e6513feb528a83d8189867abc91c94e018c4018356";
         private readonly IPaymentService _paymentService;
         private readonly ILogger<PaymentsController> logger;
 
@@ -32,7 +32,7 @@ namespace api.Controllers
             return basket;
         }
 
-        [HttpPost]
+        [HttpPost("webhook")]
         public async Task<ActionResult> StripeWebhook()
         {
             var json = await new StreamReader(Request.Body).ReadToEndAsync();
@@ -51,7 +51,7 @@ namespace api.Controllers
                     logger.LogInformation("Order updated to payment recieved: " + order.Id);
 
                 break;
-                 case "payment_intent.failed":
+                 case "payment_intent.payment_failed":
                     intent = (PaymentIntent) stripeEvent.Data.Object;
                     logger.LogInformation("Payment failed: " + intent.Id);
                     order = await _paymentService.UpdateOrderPaymentFailed(intent.Id);
