@@ -37,6 +37,9 @@ namespace api.Extensions
             services.AddScoped<ITokenService, TokenService>();
             services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());   
+            
+            services.AddSingleton<IResponseCacheService, ResponseCacheService>();
+            
             services.Configure<ApiBehaviorOptions>(options =>
             {
                 options.InvalidModelStateResponseFactory = actionContext =>
