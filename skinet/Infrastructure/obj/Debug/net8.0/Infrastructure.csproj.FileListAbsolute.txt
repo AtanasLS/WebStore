@@ -16,3 +16,7 @@ C:\Users\Atanas Stoyanov\OneDrive - Erhvervsakademi Sydvest\Dokumenter\GitHub\We
 C:\Users\Atanas Stoyanov\OneDrive - Erhvervsakademi Sydvest\Dokumenter\GitHub\WebStore\skinet\Infrastructure\bin\Debug\net8.0\Infrastructure.runtimeconfig.json
 C:\Users\Atanas Stoyanov\OneDrive - Erhvervsakademi Sydvest\Dokumenter\GitHub\WebStore\skinet\Infrastructure\obj\Debug\net8.0\Infrastructure.genruntimeconfig.cache
 C:\Users\Atanas Stoyanov\OneDrive - Erhvervsakademi Sydvest\Dokumenter\GitHub\WebStore\skinet\Infrastructure\obj\Debug\net8.0\Infrastr.15EFFBFE.Up2Date
+C:\Users\Atanas Stoyanov\OneDrive - Erhvervsakademi Sydvest\Dokumenter\GitHub\WebStore\skinet\Infrastructure\bin\Debug\net8.0\Data\SeedData\brands.json
+C:\Users\Atanas Stoyanov\OneDrive - Erhvervsakademi Sydvest\Dokumenter\GitHub\WebStore\skinet\Infrastructure\bin\Debug\net8.0\Data\SeedData\delivery.json
+C:\Users\Atanas Stoyanov\OneDrive - Erhvervsakademi Sydvest\Dokumenter\GitHub\WebStore\skinet\Infrastructure\bin\Debug\net8.0\Data\SeedData\products.json
+C:\Users\Atanas Stoyanov\OneDrive - Erhvervsakademi Sydvest\Dokumenter\GitHub\WebStore\skinet\Infrastructure\bin\Debug\net8.0\Data\SeedData\types.json
