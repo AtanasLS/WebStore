@@ -21,7 +21,7 @@ namespace api.Extensions
             services.AddControllers();
 
             services.AddDbContext<StoreContext>(opt => {
-            opt.UseSqlite(config.GetConnectionString("DefaultConnection"));
+            opt.UseNpgsql(config.GetConnectionString("DefaultConnection"));
             });
 
             services.AddSingleton<IConnectionMultiplexer>(c => 
