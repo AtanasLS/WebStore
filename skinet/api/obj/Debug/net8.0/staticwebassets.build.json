@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "lckLA/jTrRLzd/0AN7mhuP8L7ivPlHD0/ttK1N/tFW8=",
+  "Hash": "9M7L58WloOCMnJDbf6XiDJlvGkd/X3d19ryDJz3kKAI=",
   "Source": "api",
   "BasePath": "_content/api",
   "Mode": "Default",
@@ -17,12 +17,12 @@
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Atanas Stoyanov\\OneDrive - Erhvervsakademi Sydvest\\Dokumenter\\GitHub\\WebStore\\skinet\\api\\wwwroot\\images\\products\\boot-ang1.png",
+      "Identity": "C:\\Users\\Atanas Stoyanov\\OneDrive - Erhvervsakademi Sydvest\\Dokumenter\\GitHub\\WebStore\\skinet\\api\\wwwroot\\22.7340bae7c3814b1c.js",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Atanas Stoyanov\\OneDrive - Erhvervsakademi Sydvest\\Dokumenter\\GitHub\\WebStore\\skinet\\api\\wwwroot\\",
       "BasePath": "_content/api",
-      "RelativePath": "images/products/boot-ang1.png",
+      "RelativePath": "22.7340bae7c3814b1c.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -33,15 +33,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\boot-ang1.png"
+      "OriginalItemSpec": "wwwroot\\22.7340bae7c3814b1c.js"
     },
     {
-      "Identity": "C:\\Users\\Atanas Stoyanov\\OneDrive - Erhvervsakademi Sydvest\\Dokumenter\\GitHub\\WebStore\\skinet\\api\\wwwroot\\images\\products\\boot-ang2.png",
+      "Identity": "C:\\Users\\Atanas Stoyanov\\OneDrive - Erhvervsakademi Sydvest\\Dokumenter\\GitHub\\WebStore\\skinet\\api\\wwwroot\\234.00001932cfb3db86.js",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Atanas Stoyanov\\OneDrive - Erhvervsakademi Sydvest\\Dokumenter\\GitHub\\WebStore\\skinet\\api\\wwwroot\\",
       "BasePath": "_content/api",
-      "RelativePath": "images/products/boot-ang2.png",
+      "RelativePath": "234.00001932cfb3db86.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -52,15 +52,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\boot-ang2.png"
+      "OriginalItemSpec": "wwwroot\\234.00001932cfb3db86.js"
     },
     {
-      "Identity": "C:\\Users\\Atanas Stoyanov\\OneDrive - Erhvervsakademi Sydvest\\Dokumenter\\GitHub\\WebStore\\skinet\\api\\wwwroot\\images\\products\\boot-core1.png",
+      "Identity": "C:\\Users\\Atanas Stoyanov\\OneDrive - Erhvervsakademi Sydvest\\Dokumenter\\GitHub\\WebStore\\skinet\\api\\wwwroot\\3rdpartylicenses.txt",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Atanas Stoyanov\\OneDrive - Erhvervsakademi Sydvest\\Dokumenter\\GitHub\\WebStore\\skinet\\api\\wwwroot\\",
       "BasePath": "_content/api",
-      "RelativePath": "images/products/boot-core1.png",
+      "RelativePath": "3rdpartylicenses.txt",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -71,15 +71,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\boot-core1.png"
+      "OriginalItemSpec": "wwwroot\\3rdpartylicenses.txt"
     },
     {
-      "Identity": "C:\\Users\\Atanas Stoyanov\\OneDrive - Erhvervsakademi Sydvest\\Dokumenter\\GitHub\\WebStore\\skinet\\api\\wwwroot\\images\\products\\boot-core2.png",
+      "Identity": "C:\\Users\\Atanas Stoyanov\\OneDrive - Erhvervsakademi Sydvest\\Dokumenter\\GitHub\\WebStore\\skinet\\api\\wwwroot\\434.411f0326d6ad3274.js",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Atanas Stoyanov\\OneDrive - Erhvervsakademi Sydvest\\Dokumenter\\GitHub\\WebStore\\skinet\\api\\wwwroot\\",
       "BasePath": "_content/api",
-      "RelativePath": "images/products/boot-core2.png",
+      "RelativePath": "434.411f0326d6ad3274.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -90,15 +90,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\boot-core2.png"
+      "OriginalItemSpec": "wwwroot\\434.411f0326d6ad3274.js"
     },
     {
-      "Identity": "C:\\Users\\Atanas Stoyanov\\OneDrive - Erhvervsakademi Sydvest\\Dokumenter\\GitHub\\WebStore\\skinet\\api\\wwwroot\\images\\products\\boot-redis1.png",
+      "Identity": "C:\\Users\\Atanas Stoyanov\\OneDrive - Erhvervsakademi Sydvest\\Dokumenter\\GitHub\\WebStore\\skinet\\api\\wwwroot\\718.70e48864aec93bbf.js",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Atanas Stoyanov\\OneDrive - Erhvervsakademi Sydvest\\Dokumenter\\GitHub\\WebStore\\skinet\\api\\wwwroot\\",
       "BasePath": "_content/api",
-      "RelativePath": "images/products/boot-redis1.png",
+      "RelativePath": "718.70e48864aec93bbf.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -109,15 +109,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\boot-redis1.png"
+      "OriginalItemSpec": "wwwroot\\718.70e48864aec93bbf.js"
     },
     {
-      "Identity": "C:\\Users\\Atanas Stoyanov\\OneDrive - Erhvervsakademi Sydvest\\Dokumenter\\GitHub\\WebStore\\skinet\\api\\wwwroot\\images\\products\\glove-code1.png",
+      "Identity": "C:\\Users\\Atanas Stoyanov\\OneDrive - Erhvervsakademi Sydvest\\Dokumenter\\GitHub\\WebStore\\skinet\\api\\wwwroot\\919.68b0d558e8ec4658.js",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Atanas Stoyanov\\OneDrive - Erhvervsakademi Sydvest\\Dokumenter\\GitHub\\WebStore\\skinet\\api\\wwwroot\\",
       "BasePath": "_content/api",
-      "RelativePath": "images/products/glove-code1.png",
+      "RelativePath": "919.68b0d558e8ec4658.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -128,15 +128,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\glove-code1.png"
+      "OriginalItemSpec": "wwwroot\\919.68b0d558e8ec4658.js"
     },
     {
-      "Identity": "C:\\Users\\Atanas Stoyanov\\OneDrive - Erhvervsakademi Sydvest\\Dokumenter\\GitHub\\WebStore\\skinet\\api\\wwwroot\\images\\products\\glove-code2.png",
+      "Identity": "C:\\Users\\Atanas Stoyanov\\OneDrive - Erhvervsakademi Sydvest\\Dokumenter\\GitHub\\WebStore\\skinet\\api\\wwwroot\\assets\\images\\hero1.jpg",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Atanas Stoyanov\\OneDrive - Erhvervsakademi Sydvest\\Dokumenter\\GitHub\\WebStore\\skinet\\api\\wwwroot\\",
       "BasePath": "_content/api",
-      "RelativePath": "images/products/glove-code2.png",
+      "RelativePath": "assets/images/hero1.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -147,15 +147,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\glove-code2.png"
+      "OriginalItemSpec": "wwwroot\\assets\\images\\hero1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Atanas Stoyanov\\OneDrive - Erhvervsakademi Sydvest\\Dokumenter\\GitHub\\WebStore\\skinet\\api\\wwwroot\\images\\products\\glove-react1.png",
+      "Identity": "C:\\Users\\Atanas Stoyanov\\OneDrive - Erhvervsakademi Sydvest\\Dokumenter\\GitHub\\WebStore\\skinet\\api\\wwwroot\\assets\\images\\hero2.jpg",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Atanas Stoyanov\\OneDrive - Erhvervsakademi Sydvest\\Dokumenter\\GitHub\\WebStore\\skinet\\api\\wwwroot\\",
       "BasePath": "_content/api",
-      "RelativePath": "images/products/glove-react1.png",
+      "RelativePath": "assets/images/hero2.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -166,15 +166,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\glove-react1.png"
+      "OriginalItemSpec": "wwwroot\\assets\\images\\hero2.jpg"
     },
     {
-      "Identity": "C:\\Users\\Atanas Stoyanov\\OneDrive - Erhvervsakademi Sydvest\\Dokumenter\\GitHub\\WebStore\\skinet\\api\\wwwroot\\images\\products\\glove-react2.png",
+      "Identity": "C:\\Users\\Atanas Stoyanov\\OneDrive - Erhvervsakademi Sydvest\\Dokumenter\\GitHub\\WebStore\\skinet\\api\\wwwroot\\assets\\images\\hero3.jpg",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Atanas Stoyanov\\OneDrive - Erhvervsakademi Sydvest\\Dokumenter\\GitHub\\WebStore\\skinet\\api\\wwwroot\\",
       "BasePath": "_content/api",
-      "RelativePath": "images/products/glove-react2.png",
+      "RelativePath": "assets/images/hero3.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -185,15 +185,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\glove-react2.png"
+      "OriginalItemSpec": "wwwroot\\assets\\images\\hero3.jpg"
     },
     {
-      "Identity": "C:\\Users\\Atanas Stoyanov\\OneDrive - Erhvervsakademi Sydvest\\Dokumenter\\GitHub\\WebStore\\skinet\\api\\wwwroot\\images\\products\\hat-core1.png",
+      "Identity": "C:\\Users\\Atanas Stoyanov\\OneDrive - Erhvervsakademi Sydvest\\Dokumenter\\GitHub\\WebStore\\skinet\\api\\wwwroot\\assets\\images\\logo.png",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Atanas Stoyanov\\OneDrive - Erhvervsakademi Sydvest\\Dokumenter\\GitHub\\WebStore\\skinet\\api\\wwwroot\\",
       "BasePath": "_content/api",
-      "RelativePath": "images/products/hat-core1.png",
+      "RelativePath": "assets/images/logo.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -204,15 +204,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\hat-core1.png"
+      "OriginalItemSpec": "wwwroot\\assets\\images\\logo.png"
     },
     {
-      "Identity": "C:\\Users\\Atanas Stoyanov\\OneDrive - Erhvervsakademi Sydvest\\Dokumenter\\GitHub\\WebStore\\skinet\\api\\wwwroot\\images\\products\\hat-react1.png",
+      "Identity": "C:\\Users\\Atanas Stoyanov\\OneDrive - Erhvervsakademi Sydvest\\Dokumenter\\GitHub\\WebStore\\skinet\\api\\wwwroot\\assets\\images\\placeholder.png",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Atanas Stoyanov\\OneDrive - Erhvervsakademi Sydvest\\Dokumenter\\GitHub\\WebStore\\skinet\\api\\wwwroot\\",
       "BasePath": "_content/api",
-      "RelativePath": "images/products/hat-react1.png",
+      "RelativePath": "assets/images/placeholder.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -223,15 +223,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\hat-react1.png"
+      "OriginalItemSpec": "wwwroot\\assets\\images\\placeholder.png"
     },
     {
-      "Identity": "C:\\Users\\Atanas Stoyanov\\OneDrive - Erhvervsakademi Sydvest\\Dokumenter\\GitHub\\WebStore\\skinet\\api\\wwwroot\\images\\products\\hat-react2.png",
+      "Identity": "C:\\Users\\Atanas Stoyanov\\OneDrive - Erhvervsakademi Sydvest\\Dokumenter\\GitHub\\WebStore\\skinet\\api\\wwwroot\\common.c188c3d3ca837cab.js",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Atanas Stoyanov\\OneDrive - Erhvervsakademi Sydvest\\Dokumenter\\GitHub\\WebStore\\skinet\\api\\wwwroot\\",
       "BasePath": "_content/api",
-      "RelativePath": "images/products/hat-react2.png",
+      "RelativePath": "common.c188c3d3ca837cab.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -242,15 +242,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\hat-react2.png"
+      "OriginalItemSpec": "wwwroot\\common.c188c3d3ca837cab.js"
     },
     {
-      "Identity": "C:\\Users\\Atanas Stoyanov\\OneDrive - Erhvervsakademi Sydvest\\Dokumenter\\GitHub\\WebStore\\skinet\\api\\wwwroot\\images\\products\\sb-ang1.png",
+      "Identity": "C:\\Users\\Atanas Stoyanov\\OneDrive - Erhvervsakademi Sydvest\\Dokumenter\\GitHub\\WebStore\\skinet\\api\\wwwroot\\favicon.ico",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Atanas Stoyanov\\OneDrive - Erhvervsakademi Sydvest\\Dokumenter\\GitHub\\WebStore\\skinet\\api\\wwwroot\\",
       "BasePath": "_content/api",
-      "RelativePath": "images/products/sb-ang1.png",
+      "RelativePath": "favicon.ico",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -261,15 +261,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\sb-ang1.png"
+      "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\Atanas Stoyanov\\OneDrive - Erhvervsakademi Sydvest\\Dokumenter\\GitHub\\WebStore\\skinet\\api\\wwwroot\\images\\products\\sb-ang2.png",
+      "Identity": "C:\\Users\\Atanas Stoyanov\\OneDrive - Erhvervsakademi Sydvest\\Dokumenter\\GitHub\\WebStore\\skinet\\api\\wwwroot\\fontawesome-webfont.2b13baa7dd4f54c9.eot",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Atanas Stoyanov\\OneDrive - Erhvervsakademi Sydvest\\Dokumenter\\GitHub\\WebStore\\skinet\\api\\wwwroot\\",
       "BasePath": "_content/api",
-      "RelativePath": "images/products/sb-ang2.png",
+      "RelativePath": "fontawesome-webfont.2b13baa7dd4f54c9.eot",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -280,15 +280,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\sb-ang2.png"
+      "OriginalItemSpec": "wwwroot\\fontawesome-webfont.2b13baa7dd4f54c9.eot"
     },
     {
-      "Identity": "C:\\Users\\Atanas Stoyanov\\OneDrive - Erhvervsakademi Sydvest\\Dokumenter\\GitHub\\WebStore\\skinet\\api\\wwwroot\\images\\products\\sb-core1.png",
+      "Identity": "C:\\Users\\Atanas Stoyanov\\OneDrive - Erhvervsakademi Sydvest\\Dokumenter\\GitHub\\WebStore\\skinet\\api\\wwwroot\\fontawesome-webfont.8a7cb27d142e3e19.ttf",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Atanas Stoyanov\\OneDrive - Erhvervsakademi Sydvest\\Dokumenter\\GitHub\\WebStore\\skinet\\api\\wwwroot\\",
       "BasePath": "_content/api",
-      "RelativePath": "images/products/sb-core1.png",
+      "RelativePath": "fontawesome-webfont.8a7cb27d142e3e19.ttf",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -299,15 +299,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\sb-core1.png"
+      "OriginalItemSpec": "wwwroot\\fontawesome-webfont.8a7cb27d142e3e19.ttf"
     },
     {
-      "Identity": "C:\\Users\\Atanas Stoyanov\\OneDrive - Erhvervsakademi Sydvest\\Dokumenter\\GitHub\\WebStore\\skinet\\api\\wwwroot\\images\\products\\sb-core2.png",
+      "Identity": "C:\\Users\\Atanas Stoyanov\\OneDrive - Erhvervsakademi Sydvest\\Dokumenter\\GitHub\\WebStore\\skinet\\api\\wwwroot\\fontawesome-webfont.cf011583fb81df9f.woff",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Atanas Stoyanov\\OneDrive - Erhvervsakademi Sydvest\\Dokumenter\\GitHub\\WebStore\\skinet\\api\\wwwroot\\",
       "BasePath": "_content/api",
-      "RelativePath": "images/products/sb-core2.png",
+      "RelativePath": "fontawesome-webfont.cf011583fb81df9f.woff",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -318,15 +318,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\sb-core2.png"
+      "OriginalItemSpec": "wwwroot\\fontawesome-webfont.cf011583fb81df9f.woff"
     },
     {
-      "Identity": "C:\\Users\\Atanas Stoyanov\\OneDrive - Erhvervsakademi Sydvest\\Dokumenter\\GitHub\\WebStore\\skinet\\api\\wwwroot\\images\\products\\sb-react1.png",
+      "Identity": "C:\\Users\\Atanas Stoyanov\\OneDrive - Erhvervsakademi Sydvest\\Dokumenter\\GitHub\\WebStore\\skinet\\api\\wwwroot\\fontawesome-webfont.da909aa098b0ee2d.svg",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Atanas Stoyanov\\OneDrive - Erhvervsakademi Sydvest\\Dokumenter\\GitHub\\WebStore\\skinet\\api\\wwwroot\\",
       "BasePath": "_content/api",
-      "RelativePath": "images/products/sb-react1.png",
+      "RelativePath": "fontawesome-webfont.da909aa098b0ee2d.svg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -337,15 +337,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\sb-react1.png"
+      "OriginalItemSpec": "wwwroot\\fontawesome-webfont.da909aa098b0ee2d.svg"
     },
     {
-      "Identity": "C:\\Users\\Atanas Stoyanov\\OneDrive - Erhvervsakademi Sydvest\\Dokumenter\\GitHub\\WebStore\\skinet\\api\\wwwroot\\images\\products\\sb-ts1.png",
+      "Identity": "C:\\Users\\Atanas Stoyanov\\OneDrive - Erhvervsakademi Sydvest\\Dokumenter\\GitHub\\WebStore\\skinet\\api\\wwwroot\\fontawesome-webfont.e9955780856cf8aa.woff2",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Atanas Stoyanov\\OneDrive - Erhvervsakademi Sydvest\\Dokumenter\\GitHub\\WebStore\\skinet\\api\\wwwroot\\",
       "BasePath": "_content/api",
-      "RelativePath": "images/products/sb-ts1.png",
+      "RelativePath": "fontawesome-webfont.e9955780856cf8aa.woff2",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -356,15 +356,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\sb-ts1.png"
+      "OriginalItemSpec": "wwwroot\\fontawesome-webfont.e9955780856cf8aa.woff2"
     },
     {
-      "Identity": "C:\\Users\\Atanas Stoyanov\\OneDrive - Erhvervsakademi Sydvest\\Dokumenter\\GitHub\\WebStore\\skinet\\api\\wwwroot\\NewClass.cs",
+      "Identity": "C:\\Users\\Atanas Stoyanov\\OneDrive - Erhvervsakademi Sydvest\\Dokumenter\\GitHub\\WebStore\\skinet\\api\\wwwroot\\index.html",
       "SourceId": "api",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Atanas Stoyanov\\OneDrive - Erhvervsakademi Sydvest\\Dokumenter\\GitHub\\WebStore\\skinet\\api\\wwwroot\\",
       "BasePath": "_content/api",
-      "RelativePath": "NewClass.cs",
+      "RelativePath": "index.html",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -375,7 +375,83 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\NewClass.cs"
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\Atanas Stoyanov\\OneDrive - Erhvervsakademi Sydvest\\Dokumenter\\GitHub\\WebStore\\skinet\\api\\wwwroot\\main.d3492dfaade824c5.js",
+      "SourceId": "api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Atanas Stoyanov\\OneDrive - Erhvervsakademi Sydvest\\Dokumenter\\GitHub\\WebStore\\skinet\\api\\wwwroot\\",
+      "BasePath": "_content/api",
+      "RelativePath": "main.d3492dfaade824c5.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\main.d3492dfaade824c5.js"
+    },
+    {
+      "Identity": "C:\\Users\\Atanas Stoyanov\\OneDrive - Erhvervsakademi Sydvest\\Dokumenter\\GitHub\\WebStore\\skinet\\api\\wwwroot\\polyfills.146900e00815fa5f.js",
+      "SourceId": "api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Atanas Stoyanov\\OneDrive - Erhvervsakademi Sydvest\\Dokumenter\\GitHub\\WebStore\\skinet\\api\\wwwroot\\",
+      "BasePath": "_content/api",
+      "RelativePath": "polyfills.146900e00815fa5f.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\polyfills.146900e00815fa5f.js"
+    },
+    {
+      "Identity": "C:\\Users\\Atanas Stoyanov\\OneDrive - Erhvervsakademi Sydvest\\Dokumenter\\GitHub\\WebStore\\skinet\\api\\wwwroot\\runtime.86b86cf17a143012.js",
+      "SourceId": "api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Atanas Stoyanov\\OneDrive - Erhvervsakademi Sydvest\\Dokumenter\\GitHub\\WebStore\\skinet\\api\\wwwroot\\",
+      "BasePath": "_content/api",
+      "RelativePath": "runtime.86b86cf17a143012.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\runtime.86b86cf17a143012.js"
+    },
+    {
+      "Identity": "C:\\Users\\Atanas Stoyanov\\OneDrive - Erhvervsakademi Sydvest\\Dokumenter\\GitHub\\WebStore\\skinet\\api\\wwwroot\\styles.1e35e57da1e5f0a2.css",
+      "SourceId": "api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Atanas Stoyanov\\OneDrive - Erhvervsakademi Sydvest\\Dokumenter\\GitHub\\WebStore\\skinet\\api\\wwwroot\\",
+      "BasePath": "_content/api",
+      "RelativePath": "styles.1e35e57da1e5f0a2.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\styles.1e35e57da1e5f0a2.css"
     }
   ]
 }

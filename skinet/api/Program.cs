@@ -4,8 +4,10 @@ using Core.Entities.Identity;
 using Infrastructure.Data;
 using Infrastructure.Data.Identity;
 using Infrastructure.Identity;
+using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.FileProviders;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -32,8 +34,16 @@ app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
+app.MapFallbackToController("Index", "Fallback");
 
 app.UseStaticFiles();
+
+app.UseStaticFiles(new StaticFileOptions
+{
+    FileProvider = new PhysicalFileProvider(
+        Path.Combine(Directory.GetCurrentDirectory(), "Content")), RequestPath = "/Content"
+});
+
 
 // Create a new scope for application services.
 using var scope = app.Services.CreateScope();

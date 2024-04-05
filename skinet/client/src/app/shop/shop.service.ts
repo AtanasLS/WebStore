@@ -7,12 +7,13 @@ import { Type } from '../shared/models/type';
 import { ShopParams } from '../shared/models/shopParams';
 import { Observable, map, of } from 'rxjs';
 import { ThisReceiver } from '@angular/compiler';
+import { environment } from 'src/environments/environmet';
 
 @Injectable({
   providedIn: 'root'
 })
 export class ShopService {
-baseUrl = 'https://localhost:5001/api/';
+baseUrl = environment.apiUrl;
 products: Product [] = [];
 brands: Brand [] = [];
 types: Type [] = [];
